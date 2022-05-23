@@ -1,0 +1,20 @@
+{
+  "name": "jest-puppeteer-frame",
+  "version": "1.0.0",
+  "description": "test framework using jest and puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest/Verify_the_functionality_of_the_login_of_application.test.js",
+    "test1":"jest/First.test.js"
+  },
+  "author": "akshay dhiman",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.17.12",
+    "@babel/preset-env": "^7.17.12",
+    "babel-jest": "^26.6.3",
+    "jest": "^28.1.0",
+    "jest-puppeteer": "^6.1.0",
+    "puppeteer": "^14.1.0"
+  }
+}
